@@ -1,0 +1,10 @@
+[app]
+address = "0.0.0.0:9000"
+
+[db]
+host = "${PGHOST}"
+port = ${PGPORT}
+user = "${PGUSER}"
+password = "${PGPASSWORD}"
+database = "${PGDATABASE}"
+ssl_mode = "disable"
